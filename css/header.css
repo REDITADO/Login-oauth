@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin:0 ;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+}
+.principal-header{
+    position: sticky;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+    background: url(https://i.ytimg.com/vi/gpV48sIOBfw/maxresdefault.jpg) ;
+    height: 8rem;
+    
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 40%;
+    height: 7rem;
+    color: white;
+    margin-left: 2.5rem;
+    font-family: "Concert One", sans-serif;
+}
+.title{
+position: relative;
+left: -100px;
+ font-weight: 600;
+ font-size: 50px; 
+}
+.sifuder{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    width: 50%;
+    padding: 1rem;
+    list-style: none;
+    cursor: pointer;
+    margin-top: 3.5rem;
+}
+.sifuder li{
+    font-size: 1.5rem;
+    transition: background,0.5s;
+    padding: 2rem;
+}
+.sifuder li:hover{
+    color: cyan;
+}
+.menu-search{
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 2rem;
+}
+.form-menu-search{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ padding: 1.5rem;
+}
+.form-menu-search .searcher{
+    position: relative;
+    right: -2rem;
+    padding: 0.75rem;
+    width: 18rem;
+
+    border: 0;
+    border-radius: 5px;
+
+    z-index: 0;
+}
+.form-menu-search .search{
+    position: relative;
+    right: 1rem;
+    z-index: 1;
+    padding: 0.5rem;
+    border: 0;
+    background: transparent;
+    width: 1.75rem;
+    border-radius:5px;
+    outline: none;
+    
+}
+.form-menu-search .search img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1.75rem;
+    cursor: pointer;
+}
+.button-perfil{
+    width: 2rem;
+    height: 2rem;
+    padding: 2rem;
+    border-radius: 50%;
+    cursor: pointer;
+    outline: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button-perfil img{
+    width: 4.2rem;
+    height: 4.2rem;
+    
+}
